@@ -6,6 +6,8 @@ const cors = require('cors')
 
 const app = express()
 
+//run nodemon app instead of node app to have it update in realtime
+
 app.use(cors())
 
 mongoose
