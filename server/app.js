@@ -7,7 +7,7 @@ const app = express()
 
 mongoose
  .connect( //enter password 
-  "mongodb+srv://ninja:<password>@gql-ninja.rfinr.mongodb.net/gql-ninja?retryWrites=true&w=majority",
+  "mongodb+srv://ninja:test123@gql-ninja.rfinr.mongodb.net/graphql-ninja?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true }
  )
  .then(() => console.log("Connected to MongoDB Atlas"))
